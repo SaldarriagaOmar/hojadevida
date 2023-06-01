@@ -1,0 +1,58 @@
+.content {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+.rightSide {
+    padding-left: 20px;
+    background-color: aqua;
+    min-height: 1080px;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.latbar {
+    min-height: 1080px;
+    width: 35%;
+    background-color: blue;
+}
+
+.photo {
+    width: auto;
+    height: 200px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    margin-left: 20px;
+}
+
+.contact-info {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
