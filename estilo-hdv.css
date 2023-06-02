@@ -7,13 +7,10 @@
 
 body {
     font-family: Arial, sans-serif;
-    align-items: center;
+    size: auto;
 }
-
 .rightSide {
     padding-left: 20px;
-    background-color: aqua;
-    min-height: 1080px;
 }
 
 h1 {
@@ -22,9 +19,17 @@ h1 {
 }
 
 .latbar {
-    min-height: 1080px;
-    width: 35%;
-    background-color: blue;
+    width: 250px;
+    background-color: rgb(184, 126, 98);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.latbar {
+    color: white;
+}
+
+div.relative {
+    position: relative;
 }
 
 .photo {
