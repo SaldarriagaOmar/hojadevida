@@ -1,0 +1,64 @@
+* {
+    margin: auto;
+    padding: 10px;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact_info {
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+progress{
+    height: 30px;
+}
+
+.icon {
+    width: 40px;
+}
+
+.body_info {
+    display: flex;
+}
+
+.left_bar {
+    width: 25%;
+}
+
+.skills {
+    background-color: beige;
+}
+
+.hobbies {
+    background-color: azure;
+}
+
+.languages {
+    background-color: bisque;
+}
+
+.content_right {
+    width: 75%;
+    
+}
+
+.profile {
+    background-color: aliceblue;
+}
+
+.education {
+    background-color: antiquewhite;
+}
+
+.experience {
+    background-color: aqua;
+}
