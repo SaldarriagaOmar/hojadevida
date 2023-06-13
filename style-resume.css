@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: aquamarine;
     max-width: 1024px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -18,29 +17,60 @@ ul {
     list-style-type: none;
 }
 
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    padding: 0%;
+}
+
+p {
+    text-align: justify;
+}
+
 .profile_pic {
     border-radius: 50%;
     width: 300px;
 }
 
-progress{
+progress {
     height: 30px;
 }
 
 .icon {
-    width: 40px;
-    display: inline-block;
+    height: 40px;
+}
+
+.icon_dist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+}
+
+.hobbies_dist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
 }
 
 .body_info {
     display: flex;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .left_bar {
     width: 25%;
+    background-color: blanchedalmond;
 }
 
-.skills {
+/*.skills {
     background-color: beige;
 }
 
@@ -50,14 +80,14 @@ progress{
 
 .languages {
     background-color: bisque;
-}
+}*/
 
 .content_right {
     width: 75%;
-    
+    margin: 0;
 }
 
-.profile {
+/*.profile {
     background-color: aliceblue;
 }
 
@@ -68,3 +98,29 @@ progress{
 .experience {
     background-color: aqua;
 }
+
+.softwares {
+    background-color: cornsilk;
+}*/
+
+.otras_hab {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/*#webdev {
+    background-color: brown;
+    width: ;
+}
+#auvis {
+    background-color: blueviolet;
+}
+#graph {
+    background-color: chocolate;
+}
+#intr {
+    background-color: crimson;
+}*/
