@@ -5,6 +5,7 @@
 
 body {
     background-color: aquamarine;
+    max-width: 1024px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -13,7 +14,11 @@ body {
     display: flex;
 }
 
-img {
+ul {
+    list-style-type: none;
+}
+
+.profile_pic {
     border-radius: 50%;
     width: 300px;
 }
@@ -24,6 +29,7 @@ progress{
 
 .icon {
     width: 40px;
+    display: inline-block;
 }
 
 .body_info {
